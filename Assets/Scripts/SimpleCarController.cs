@@ -27,7 +27,7 @@ public class SimpleCarController : MonoBehaviour {
     }
     private void Start()
     {
-        Debug.Log("Ctrllr started...");
+        Debug.Log("Ctrllr started..." + Time.fixedTime);
     }
     public void FixedUpdate()
     {
